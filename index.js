@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 var corsOptions = {
-    origin: 'https://sarasg89.github.io/',
+    origin: 'https://sarasg89.github.io',
     optionsSuccessStatus: 200 // For legacy browser support
 }
 
